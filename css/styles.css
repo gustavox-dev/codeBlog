@@ -55,11 +55,6 @@ header {
   height: 250px;
 }
 
-#container-articles {
-  margin-top: 30px;
-  background-color: #f3f5f7;
-}
-
 #topo {
   background: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
   width: 143%;
@@ -116,6 +111,17 @@ header {
   color: white;
 }
 
+#container-articles {
+  margin-top: 30px;
+  background-color: #f3f5f7;
+}
+
+#noticeList {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+}
 /*
 #nav-header-main ul {
   display: flex;
